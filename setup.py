@@ -27,7 +27,7 @@ hdfs = ['snakebite>=2.4.13']
 slack = ['slackclient>=0.15']
 crypto = ['cryptography>=0.9.3']
 oracle = ['cx_Oracle>=5.1.2']
-vertica = ['vertica-python>=0.5.1']
+vertica = ['vertica-python>=0.5.1','pyvertica>=1.6.1']
 
 all_dbs = postgres + mysql + hive + mssql + hdfs + vertica
 devel = all_dbs + doc + samba + s3 + ['nose'] + slack + crypto + oracle
